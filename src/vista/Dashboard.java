@@ -184,7 +184,7 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel1.setText("Reservaciones Pendientes");
 
         listaReservasPendientes.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
+            String[] strings = { "12:00 | Nombre_1 Apellido_1 | Masaje", "12:00 | Nombre_2 Apellido_2 | Sauna", "12:30 | Nombre_3 Apellido_3 | Tratamiento estetico", "13:00 | Nombre_2 Apellido_2 | Masaje", "13:00 | Nombre_4 Apellido_4 | Sauna" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
@@ -256,13 +256,13 @@ public class Dashboard extends javax.swing.JFrame {
 
         tablaReservas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Dom 1", "Lun 2", "Mar 3", "Mier 4", "Jue 5", "Vier 6", "Sab 7", "Dom 8", "Lun 9", "Mar 10", "Mie 11"
             }
         ));
         jScrollPane1.setViewportView(tablaReservas);
@@ -270,7 +270,7 @@ public class Dashboard extends javax.swing.JFrame {
         jTabbedPane2.addTab("Calendario", jScrollPane1);
 
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
+            String[] strings = { "12:00 | Nombre_1 Apellido_1 | Masaje", "12:00 | Nombre_2 Apellido_2 | Sauna", "12:30 | Nombre_3 Apellido_3 | Tratamiento estetico", "13:00 | Nombre_2 Apellido_2 | Masaje", "13:00 | Nombre_4 Apellido_4 | Sauna" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });

@@ -357,11 +357,11 @@
                           <Properties>
                             <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
                               <StringArray count="5">
-                                <StringItem index="0" value="Item 1"/>
-                                <StringItem index="1" value="Item 2"/>
-                                <StringItem index="2" value="Item 3"/>
-                                <StringItem index="3" value="Item 4"/>
-                                <StringItem index="4" value="Item 5"/>
+                                <StringItem index="0" value="12:00 | Nombre_1 Apellido_1 | Masaje"/>
+                                <StringItem index="1" value="12:00 | Nombre_2 Apellido_2 | Sauna"/>
+                                <StringItem index="2" value="12:30 | Nombre_3 Apellido_3 | Tratamiento estetico"/>
+                                <StringItem index="3" value="13:00 | Nombre_2 Apellido_2 | Masaje"/>
+                                <StringItem index="4" value="13:00 | Nombre_4 Apellido_4 | Sauna"/>
                               </StringArray>
                             </Property>
                           </Properties>
@@ -411,11 +411,18 @@
                 <Component class="javax.swing.JTable" name="tablaReservas">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                      <Table columnCount="4" rowCount="4">
-                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
-                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
-                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
-                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      <Table columnCount="11" rowCount="4">
+                        <Column editable="true" title="Dom 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Lun 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Mar 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Mier 4" type="java.lang.Object"/>
+                        <Column editable="true" title="Jue 5" type="java.lang.Object"/>
+                        <Column editable="true" title="Vier 6" type="java.lang.Object"/>
+                        <Column editable="true" title="Sab 7" type="java.lang.Object"/>
+                        <Column editable="true" title="Dom 8" type="java.lang.Object"/>
+                        <Column editable="true" title="Lun 9" type="java.lang.Object"/>
+                        <Column editable="true" title="Mar 10" type="java.lang.Object"/>
+                        <Column editable="true" title="Mie 11" type="java.lang.Object"/>
                       </Table>
                     </Property>
                   </Properties>
@@ -437,11 +444,11 @@
                   <Properties>
                     <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
                       <StringArray count="5">
-                        <StringItem index="0" value="Item 1"/>
-                        <StringItem index="1" value="Item 2"/>
-                        <StringItem index="2" value="Item 3"/>
-                        <StringItem index="3" value="Item 4"/>
-                        <StringItem index="4" value="Item 5"/>
+                        <StringItem index="0" value="12:00 | Nombre_1 Apellido_1 | Masaje"/>
+                        <StringItem index="1" value="12:00 | Nombre_2 Apellido_2 | Sauna"/>
+                        <StringItem index="2" value="12:30 | Nombre_3 Apellido_3 | Tratamiento estetico"/>
+                        <StringItem index="3" value="13:00 | Nombre_2 Apellido_2 | Masaje"/>
+                        <StringItem index="4" value="13:00 | Nombre_4 Apellido_4 | Sauna"/>
                       </StringArray>
                     </Property>
                   </Properties>
