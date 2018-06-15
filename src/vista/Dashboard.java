@@ -302,6 +302,11 @@ public class Dashboard extends javax.swing.JFrame {
         });
 
         btnNReserva.setText("Nueva Reserva");
+        btnNReserva.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnNReservaActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -350,7 +355,7 @@ public class Dashboard extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnNClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNClienteActionPerformed
-        // TODO add your handling code here:
+        new NCliente().setVisible(true); // Main Form to show after the Login Form..
     }//GEN-LAST:event_btnNClienteActionPerformed
 
     private void textFechaDashActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textFechaDashActionPerformed
@@ -360,6 +365,10 @@ public class Dashboard extends javax.swing.JFrame {
     private void btnBuscarFechaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarFechaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnBuscarFechaActionPerformed
+
+    private void btnNReservaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNReservaActionPerformed
+        new NReservas().setVisible(true); // Main Form to show after the Login Form..
+    }//GEN-LAST:event_btnNReservaActionPerformed
 
     /**
      * @param args the command line arguments

@@ -16,6 +16,7 @@ public class NReservas extends javax.swing.JFrame {
      */
     public NReservas() {
         initComponents();
+        
     }
 
     /**
@@ -48,7 +49,7 @@ public class NReservas extends javax.swing.JFrame {
         BtnAceptar = new javax.swing.JButton();
         BtnCancelar = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
@@ -186,6 +187,11 @@ public class NReservas extends javax.swing.JFrame {
         BtnAceptar.setText("Aceptar");
 
         BtnCancelar.setText("Cancelar");
+        BtnCancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnCancelarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -254,6 +260,10 @@ public class NReservas extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_TextPrecioTActionPerformed
 
+    private void BtnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnCancelarActionPerformed
+        this.dispose();
+    }//GEN-LAST:event_BtnCancelarActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -287,6 +297,8 @@ public class NReservas extends javax.swing.JFrame {
                 new NReservas().setVisible(true);
             }
         });
+        
+        
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
